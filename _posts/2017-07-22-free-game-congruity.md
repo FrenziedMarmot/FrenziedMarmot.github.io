@@ -1,7 +1,7 @@
 ---
 title: 'Free game Congruity now available!'
 layout: post
-post-image: /assets/images/Title-congruity.png
+post-image: /assets/images/congruity-title.png
 description: Get our new free game available in all major app stores
 tags:
   - Congruity

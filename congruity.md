@@ -3,7 +3,7 @@ layout: feature
 title: Congruity
 ---
 
-<img src="/assets/images/Title-Congruity.png" style="max-width: 100%" alt="Congruity logo">
+<img src="/assets/images/congruity-title.png" style="max-width: 100%" alt="Congruity logo">
 
 {% include buy-congruity.html %}
 
