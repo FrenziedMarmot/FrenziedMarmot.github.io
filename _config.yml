@@ -12,7 +12,7 @@ title: Frenzied Marmot
 # Description of the Site
 description: Making games, game-related apps, and game dev content
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+site-image: /assets/images/logo.png
 # Keywords of the Site
 site-keywords: games, game development, programming, web development, developer
 # URL for the Image of custom Favicon
@@ -37,7 +37,7 @@ dribbble_username:
 spotify_username: 
 
 # Google Analytics
-google-analytics: UA-163806439-1
+google-analytics: UA-54264549-1
 
 # Disqus
 disqus-shortname: 
@@ -63,7 +63,7 @@ plugins:
   - jekyll-feed
 
 # Permalink
-permalink: "blog/:title"
+permalink: "news/:title"
 
 # Compress
 compress_html:
