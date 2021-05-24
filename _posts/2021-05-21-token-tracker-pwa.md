@@ -2,7 +2,7 @@
 title: 'Token Tracker now available as a PWA!'
 layout: post
 post-image: /assets/images/ttracker-promo-sm.png
-description: Get our new free game available in all major app stores
+description: Token tracker is a great way to keep track of numbers in games
 tags:
   - Token Tracker
   - Board Games
