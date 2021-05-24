@@ -18,7 +18,7 @@ tags:
 <iframe frameborder="0" height="300" scrolling="no" src="https://www.kickstarter.com/projects/frenziedmarmot/cockatilt/widget/card.html?v=2" width="220">
 </iframe>
 
-_Update: We've reached our goal! [Click here](https://www.kickstarter.com/projects/frenziedmarmot/cockatilt?ref=card){:target="\_blank" rel="noreferrer"} for more information._
+_Update: We've reached our goal! <a href="https://www.kickstarter.com/projects/frenziedmarmot/cockatilt?ref=card" target="_blank" rel="noreferrer">Click here</a> for more information._
 
 Cockatilt is a game wherein you fling an adorable butterball cockatiel across perches and down ladders so that she might continue to stuff her gizzard. Tap and drag movable perches of varying shapes and sizes to hasten her descent, and hope that her cage mate won't beat her to dinner.
 
