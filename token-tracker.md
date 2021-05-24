@@ -2,10 +2,12 @@
 layout: feature
 title: Token Tracker
 ---
+<h1 class="title">Token Tracker</h1>
+<hr class="faded" />
 
-# Token Tracker
+<img src="/assets/images/ttracker-promo.png" width="200" style="margin: 0 0 20px 20px;" class="right" alt="Token Tracker Promo Image" />
 
-<img src="/assets/images/ttracker-promo.png" width="200" style="margin-left: 30px;" class="is-pulled-right" alt="Token Tracker Promo Image" />
+<a class="btn contact-button" href="https://ttracker.frenziedmarmot.com" target="blank" rel="noopener"><i class="material-icons right">launch</i>Click here to load Token Tracker</a>
 
 Token tracker is a progressive web-app that installs to your phone in moments, takes little space, and works offline.
 
@@ -24,6 +26,6 @@ Some example usages are:
 
 You can even use text tokens for names to keep score in your favorite dice or card game!
 
-<a class="button is-rounded is-link " href="https://ttracker.frenziedmarmot.com" target="blank" rel="noopener"><span class="icon"><i class="fas fa-external-link-alt"></i></span><span>Click here to load Token Tracker</span></a>
+<a class="btn contact-button" href="https://ttracker.frenziedmarmot.com" target="blank" rel="noopener"><i class="material-icons right">launch</i>Click here to load Token Tracker</a>
 
-<div class="is-clearfix"></div>
+<div class="clearfix"></div>

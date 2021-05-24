@@ -1,15 +1,15 @@
-<div class="columns has-text-centered" id="blog-card">
-    <div class="column is-marginless is-paddingless is-one-third-desktop is-one-third-fullhd is-one-third-tablet">
-        <div class="image is-16by9" style="background-image: url({{post.post-image}});"></div>
+<div class="row blog-card">
+  <div class="blog-image-wrapper">
+    <div class="blog-image" style="background-image: url({{post.post-image}});"></div>
+  </div>
+  <a class="blog-content-wrapper" href="{{post.url | absolute_url}}">
+    <h2 class="title">{{post.title}}</h2>
+    <div class="content">
+      {{ post.content | strip_newlines | strip_html | truncate: 300 | strip | escape }}
+      <hr class="muted" />
+      <span>Published on <span class="semibold">{{ post.date | date: "%-B %d, %Y" }}</span></span> {% assign words =
+      post.content | number_of_words %}{% assign mins = words | divided_by:180 %}{%- unless content.size == 0 or mins ==
+      0 -%} | <i class="fas fa-clock"></i> <span class="semibold">{{ mins }} min</span> read{% endunless %}
     </div>
-    <a href="{{post.url | absolute_url}}">
-        <div class="column has-text-left-desktop has-text-left-tablet">
-            <h1 class="title is-size-4-touch">{{post.title}}</h1>
-            <div class="content has-text-grey">
-                {{ post.content | strip_newlines | strip_html | truncate: 300 | strip | escape }}
-                <hr class="has-background-grey">
-                <span class="has-text-grey">Published on <span class="has-text-weight-semibold">{{ post.date | date: "%-B %d, %Y" }}</span></span> {% assign words = post.content | number_of_words %}{% assign mins = words | divided_by:180 %}{%- unless content.size == 0 or mins == 0 -%} | <i class="fas fa-clock"></i> <span class="has-text-weight-semibold">{{ mins }} min</span> read{% endunless %}
-            </div>
-        </div>
-    </a>
+  </a>
 </div>

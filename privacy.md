@@ -18,44 +18,44 @@ more: true
     an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect,
     use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.
 </p>
-<h3>What personal information do we collect from the people that visit our blog, website or app?</h3>
+<h2 class="question">What personal information do we collect from the people that visit our blog, website or app?</h2>
 <p>
     We do not collect information from visitors of our site.
 </p>
-<h3>When do we collect information?</h3>
+<h2 class="question">When do we collect information?</h2>
 <p>
     We only receive data through reputable analytics via the app stores and google analytics.
 </p>
-<h3>How do we use your information? </h3>
+<h2 class="question">How do we use your information? </h2>
 <p>
     No personally identifiable information is transmitted or stored.
 </p>
-<h3>How do we protect visitor information?</h3>
+<h2 class="question">How do we protect visitor information?</h2>
 <p>
     We only provide articles and information, we never ask for personal or private information like email addresses, or credit
     card numbers.
 </p>
-<h3>Do we use 'cookies'?</h3>
+<h2 class="question">Do we use 'cookies'?</h2>
 <p>
     We do not use cookies for tracking purposes
 </p>
-<h3>Third Party Disclosure</h3>
+<h2 class="question">Third Party Disclosure</h2>
 <p>
     We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information.
 </p>
-<h3>Third party links</h3>
+<h2 class="question">Third party links</h2>
 <p>
     We do not include or offer third party products or services on our website.
 </p>
-<h3>
+<h2 class="question">
     Google
-</h3>
+</h2>
 <p>
     We use Google Analytics to gauge basic site traffic. No personally identifiable information is transmitted or stored.
 </p>
-<h3>
+<h2 class="question">
     California Online Privacy Protection Act
-</h3>
+</h2>
 <p>
     CalOPPA is the first state law in the nation to require commercial websites and online services to post a privacy policy.
     The law's reach stretches well beyond California to require a person or company in the United States (and conceivably
@@ -75,18 +75,18 @@ more: true
     <li>Users will be notified of any privacy policy changes: On our Privacy Policy Page</li>
     <li>No personal information is stored</li>
 </ul>
-<h3>
+<h2 class="question">
     How does our site handle do not track signals?
-</h3>
+</h2>
 <p>We honor do not track signals and do not track, plant cookies, or use advertising when a Do Not Track (DNT) browser
     mechanism is in place. </p>
-<h3>
+<h2 class="question">
     Does our site allow third party behavioral tracking?
-</h3>
+</h2>
 <p>We do not allow third party behavioral tracking</p>
-<h3>
+<h2 class="question">
     COPPA (Children Online Privacy Protection Act)
-</h3>
+</h2>
 <p>
     When it comes to the collection of personal information from children under 13, the Children's Online Privacy Protection
     Act (COPPA) puts parents in control. The Federal Trade Commission, the nation's consumer protection agency, enforces
@@ -100,8 +100,8 @@ more: true
 </p>
 <address>
     Frenzied Marmot, LLC
-    <br /> 1948 Trenton Ave.
-    <br /> Bremerton, WA 98310
+    <br /> 9641 Meadow Creek Dr.
+    <br /> Sherwood, AR 72120
     <br /> United States
 
 </address>

@@ -1,26 +1,16 @@
-<section class="hero is-fullheight has-text-centered" id="hero">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title has-text-white is-size-1 is-uppercase has-text-weight-bold">
-        {{site.title}}
-      </h1>
-      <h2 class="subtitle has-text-white-bis is-uppercase has-text-weight-medium is-marginless">
-        {{site.description}}
-      </h2>
-      <hr class="faded">
-      <section id="project">
-        <div>
-          <div class="container has-text-centered">
-            <div class="columns is-centered is-multiline is-mobile">
-              {% include project-card.html %}
-              {% include app-card.html %}
-            </div>
-          </div>
+<section id="showcase" class="screen">
+  <div class="center-align container-fluid">
+    <div class="row">
+      <h1 class="title s12">{{site.title}}</h1>
+      <h2 class="subtitle s12">{{site.description}}</h2>
+      <hr class="faded col s6 offset-s3" />
+      <div class="container">
+        <div class="row">
+          {% for proj in site.data.projects %} {% include project-card.html project=proj %} {% endfor %} {% for app in
+          site.data.apps %} {% include project-card.html project=app %} {% endfor %}
         </div>
-      </section>
-      <a href="{{site.url}}{{site.baseurl}}/#about"
-        class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">Read More</a>
-      </a>
+      </div>
     </div>
+    <a href="{{site.url}}{{site.baseurl}}/#about" class="waves-effect waves-light btn">Read More</a>
   </div>
 </section>

@@ -4,31 +4,27 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
+  <head>
     {% include head.html %}
-</head>
+  </head>
 
-<body>
+  <body>
     {% include navbar.html %}
 
     <!--Main Section-->
-    <section class="hero is-fullheight" id="project">
-        <div class="hero-body">
-            <div class="container has-text-centered">
-                <div class="section">
-                    <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">Check out our apps</p>
-                </div>
-                <div class="columns is-centered is-multiline is-mobile">
-                    {% include app-card.html %}
-                </div>
-            </div>
+    <section id="project" class="page">
+      <div>
+        <div class="container center-align">
+          <h1 class="title">Check out our apps</h1>
+          <hr class="faded" />
+          <div class="row">
+            {% for app in site.data.apps %} {% include project-card.html project=app %} {% endfor %}
+          </div>
         </div>
+      </div>
     </section>
-    </div>
 
     <!--Footer-->
     {% include footer.html %}
-</body>
-
+  </body>
 </html>

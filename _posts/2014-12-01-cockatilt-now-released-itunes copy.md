@@ -16,7 +16,7 @@ _**Update**: This post is kept for archive purposes. We are no longer publishing
 
 <blockquote style="margin: 20px;">
     <h2>
-        <a class="btn disabled" href="https://itunes.apple.com/us/app/cockatilt/id939951640?ls=1&mt=8" target=_blank>
+        <a class="img-btn disabled" href="https://itunes.apple.com/us/app/cockatilt/id939951640?ls=1&mt=8" target=_blank>
             <img src="/assets/images/ios_appstore.svg" alt="Find it on the iOS App Store!" />
         </a>
         <small style="display: inline">Buy now for your iPhone, iPad, or iPod Touch!</small>

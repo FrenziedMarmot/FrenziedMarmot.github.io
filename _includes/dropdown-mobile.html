@@ -1,0 +1,21 @@
+<li>
+  <ul class="collection with-header">
+    <li class="collection-header">MORE<i class="material-icons right">arrow_drop_down</i></li>
+    {% for sitepage in site.html_pages %} {% unless sitepage.more == %}
+    <li>
+      <a
+        href="{{sitepage.url | absolute_url}}"
+        class="{% if page.url == sitepage.url | absolute_url %}active{% endif %}"
+      >
+        {{sitepage.title}}
+      </a>
+    </li>
+    {% for child in sitepage.children %}
+    <li>
+      <a href="{{child.url | absolute_url}}" class="{% if page.url == child.url | absolute_url %}active{% endif %}">
+        - {{child.title}}
+      </a>
+    </li>
+    {% endfor %}{% endunless %}{% endfor %}
+  </ul>
+</li>

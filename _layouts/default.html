@@ -4,37 +4,36 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="en-us">
-{% include head.html %}
+  {% include head.html %}
 
-<body>
-  {% include navbar.html %}
-  {% include showcase.html %}
-  {% include about.html %}
-  {% include contact.html %}
-  <!--Footer begins here-->
-  {% include footer.html %}
-</body>
-<script>
-  window.addEventListener("scroll", function (event) {
-    var scroll = this.scrollY;
-    var item = document.getElementsByClassName('navbar-item');
-    /* console.log(scroll); */
-    if (scroll < 565) {
-      item[1].classList.add('is-active');
-      item[2].classList.remove('is-active');
-      item[3].classList.remove('is-active');
-    }
-    if (scroll > 565 && scroll < 1130) {
-      item[1].classList.remove('is-active');
-      item[2].classList.add('is-active');
-      item[3].classList.remove('is-active');
-    }
-    if (scroll > 1130) {
-      item[1].classList.remove('is-active');
-      item[2].classList.remove('is-active');
-      item[3].classList.add('is-active');
-    }
-  });
-</script>
+  <body>
+    {% include navbar.html %} {% include showcase.html %} {% include about.html %} {% include contact.html %}
+    <!--Footer begins here-->
+    {% include footer.html %}
+  </body>
+  <script>
+    window.addEventListener('scroll', function (event) {
+      var scroll = this.scrollY;
+      const loop = Array.prototype.forEach;
+      const home = document.getElementsByClassName('home-link');
+      const about = document.getElementsByClassName('about-link');
+      const contact = document.getElementsByClassName('contact-link');
 
+      function setActiveScroll(activate, disable) {
+        loop.call(activate, (l) => l.classList.add('active'));
+        disable.forEach((links) => loop.call(links, (l) => l.classList.remove('active')));
+      }
+
+      /* console.log(scroll); */
+      if (scroll < 565) {
+        setActiveScroll(home, [about, contact]);
+      }
+      if (scroll > 565 && scroll < 1130) {
+        setActiveScroll(about, [home, contact]);
+      }
+      if (scroll > 1130) {
+        setActiveScroll(contact, [home, about]);
+      }
+    });
+  </script>
 </html>

@@ -9,6 +9,8 @@ tags:
   - PWA
 ---
 
+<a class="btn contact-button" href="https://ttracker.frenziedmarmot.com" target="blank" rel="noopener"><i class="material-icons right">launch</i>Click here to load Token Tracker</a>
+
 Token tracker is a progressive web-app that installs to your phone in moments, takes little space, and works offline.
 
 Tokens are typically in board games to simply count how much of something you have. They can range from cardboard "coins" to represent how much gold you have to painted wooden cubes or glass beads. _Token Tracker_ is for tracking these tokens using an app instead of using physical tokens. This helps to:
@@ -26,4 +28,4 @@ Some example usages are:
 
 You can even use text tokens for names to keep score in your favorite dice or card game!
 
-<a class="button is-rounded is-link " href="https://ttracker.frenziedmarmot.com" target="blank" rel="noopener"><span class="icon"><i class="fas fa-external-link-alt"></i></span><span>Click here to load Token Tracker</span></a>
+<a class="btn contact-button" href="https://ttracker.frenziedmarmot.com" target="blank" rel="noopener"><i class="material-icons right">launch</i>Click here to load Token Tracker</a>

@@ -16,7 +16,7 @@ Feel free to add a tip to show your support.
 
 ---
 
-<div class="has-text-centered">
+<div class="center-align">
   <iframe src="https://www.humblebundle.com/widget/v2/product/cockatilt/MhSDflk23?theme=light"
       height="327" style="border: none; width:100%; max-width: 900px;" scrolling="no" frameborder="0"></iframe>
 </div>

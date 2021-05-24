@@ -1,27 +1,15 @@
-<section class="hero is-fullheight has-text-centered has-background-grey-lighter" id="about">
-    <div class="hero-body">
-        <div class="container">
-            <div class="columns">
-                <div class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen">
-                    <figure class="has-text-centered">
-                        <img height="180" width="664" src="{{site.author-image}}" alt="{{site.author-name}}">
-                    </figure>
-                    <p>{{site.author-about}}</p>
-                    <br>
-                    <div class="container columns is-centered">
-                        <div>
-                            <a href="{{site.url}}{{site.baseurl}}/#contact"
-                                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">Contact
-                                Us</a>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="{{site.url}}{{site.baseurl}}/news"
-                                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">News</a>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<section class="screen" id="about">
+  <div class="container center-align">
+    <div class="row">
+      <div>
+        <img class="responsive-img" src="{{site.author-image}}" alt="{{site.author-name}}" />
+      </div>
+      <p>{{site.author-about}}</p>
+      <hr />
+      <p>
+        <a href="{{site.url}}{{site.baseurl}}/#contact" class="waves-effect waves-light btn">Contact Us</a>
+        <a href="{{site.url}}{{site.baseurl}}/news" class="waves-effect waves-light btn">News</a>
+      </p>
+    </div>
+  </div>
 </section>

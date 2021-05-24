@@ -1,4 +1,3 @@
-# WhatATheme
 livereload: true
 markdown: kramdown
 
@@ -13,6 +12,7 @@ title: Frenzied Marmot
 description: Making games, game-related apps, and game dev content
 # URL of Image of the Site
 site-image: /assets/images/logo.png
+site-image-sm: /assets/images/logo-sm.png
 # Keywords of the Site
 site-keywords: games, game development, programming, web development, developer
 # URL for the Image of custom Favicon
