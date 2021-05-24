@@ -36,7 +36,12 @@ layout: compress
             {%- endunless -%} {% assign words = content | number_of_words %} {% assign mins = words | divided_by:180 %}
             {%- unless content.size == 0 or mins == 0 -%}
             <p class="subtitle upper"><i class="fas fa-clock"></i> <b> {{ mins }} min </b>READ</p>
-            {%- endunless -%}
+            {%- endunless -%} {% if page.ctaLink %}
+            <a class="btn" href="{{page.ctaLink}}" target="blank" rel="noopener"
+              >{% if page.ctaIcon %}<i class="material-icons right">{{page.ctaIcon}}</i>{%endif%}{% if page.ctaTitle
+              %}{{page.ctaTitle}}{%else%}{{page.ctaLink}}{%endif%}</a
+            >
+            {% endif %}
           </div>
         </div>
         <div class="content col s12">{{ content }}</div>
